@@ -12,9 +12,7 @@ object Test1 {
     
     val conf = new SparkConf().setAppName("Test1SparkApp").setMaster("local[*]")
     val sc = new SparkContext(conf)
-    //val rl = sc.range(1,2)
-    //rl.collect.foreach(println)
-    println("Hello World")
+    println("Hello World!")
     sc.stop()    
   }
 }
