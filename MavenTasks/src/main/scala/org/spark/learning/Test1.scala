@@ -12,7 +12,7 @@ object Test1 {
     
     val conf = new SparkConf().setAppName("Test1SparkApp").setMaster("local[*]")
     val sc = new SparkContext(conf)
-    println("Hello World!")
+    println("Hello World")
     sc.stop()    
   }
 }
